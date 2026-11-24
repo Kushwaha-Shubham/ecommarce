@@ -4,9 +4,7 @@ import org.jspecify.annotations.NonNull;
 
 public class Category {
 
-    @NonNull
     private Long categoryId;
-    @NonNull
     private String categoryName;
 
     public Category(Long categoryId, String categoryName){
